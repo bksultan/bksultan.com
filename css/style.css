@@ -6,7 +6,18 @@
     font-family: GothamBold;
     src: url(../css/fonts/Gotham/GothaProBol.otf);
 }
-
+*,
+*:after,
+*::before {
+    
+}
+a:hover {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
 body {
     min-width: 320px;
     font-family: Gotham;
@@ -15,10 +26,14 @@ body {
     background-size:cover;
     background-attachment: fixed;
 }
-body a{
+body a {
     font-family: Gotham;
+    cursor: pointer;
 }
-#my-img{
+header {
+    margin-bottom: 250px;
+}
+#my-img {
     width: 300px;
     height: 300px;
     background: url(../img/1.jpg);
@@ -30,18 +45,48 @@ body a{
     margin: 0 auto;
     margin-top: 5%;
 }
-#my-info{
+#my-info {
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
-.title{
+.title {
     font-size: 50px;
     color: #ffef9b;
     margin-top: 45px;
 }
-.text{
+.text {
     margin-top: 45px;
     font-size: 16px;
     font-weight: bold; 
+}
+
+/* thumbnails */
+
+.card {
+    font-family: 'Work Sans', sans-serif;
+}
+.card-body {
+    padding: 1rem;
+}
+.card .link {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+    max-height: 38px;
+    overflow: hidden;
+}
+.card .link:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+.card-header {
+    min-height: 100px;
+    padding: 0;
+    border-bottom: none;
+}
+.card-8 img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
 }
