@@ -127,14 +127,35 @@ header {
     font-size: 0.90rem;
 }
 .about span:hover {
-    background: #fcffb5;
+    background: #a7a7a7;
     -webkit-transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
     transition: all 900ms ease;
 }
+.about-title {
+    text-align: center;
+    margin-top: 45px;
+    color: #FFF;
+}
 
+/* socials */
+.social {
+    float: right;
+}
+.social li {
+    float: left;
+    margin-left: 15px;
+    display: block;
+    font-size: 3rem;
+}
+.social li a {
+    color: #fff;
+}
+.social li a:hover {
+    color: #a7a7a7;
+}
 
 /* TIMELINE */
 
