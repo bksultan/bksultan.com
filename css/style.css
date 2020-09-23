@@ -112,8 +112,8 @@ header {
 }
 .about img {
     width: 100%;
-    border: 2px solid #ffef9b;
-    border-radius: 5px;
+    border: 5px solid #616161;
+    border-radius: 2px;
     margin-bottom: 5%;
 }
 .about h4, .about .text-muted {
