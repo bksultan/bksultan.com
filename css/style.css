@@ -188,7 +188,7 @@ header {
   #cd-timeline {
   }
   #cd-timeline::before {
-    left: 50%;
+    left: 95%;
     margin-left: -2px;
   }
 }
@@ -205,18 +205,12 @@ header {
 .cd-timeline-block:first-child {
   margin-top: 0;
 }
-.cd-timeline-block:last-child {
-  margin-bottom: 0;
-}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
-  }
-  .cd-timeline-block:last-child {
-    margin-bottom: 0;
   }
 }
 .cd-timeline-img {
@@ -235,7 +229,7 @@ header {
   .cd-timeline-img {
     width: 30px;
     height: 30px;
-    left: 50%;
+    left: 95%;
     margin-left: -15px;
     margin-top: 15px;
     /* Force Hardware Acceleration in WebKit */
@@ -343,11 +337,11 @@ header {
     color: white;
     margin-left: 0;
     padding: 1.6em;
-    width: 36%;
-    margin: 0 5%
+    width: 90%;
+    margin: 0;
   }
   .cd-timeline-content::before {
-    top: 24px;
+    top: 30px;
     left: 100%;
     border-color: transparent;
     border-left-color: #5b676f;
@@ -359,23 +353,5 @@ header {
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content {
-    float: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-    top: 24px;
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: #5b676f;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
-    float: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-    left: auto;
-    right: 122%;
-    text-align: right;
   }
 }
