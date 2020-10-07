@@ -68,7 +68,7 @@ header {
 .nav-a {
     color: #ffef9b;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 15px;
 }
 
@@ -103,7 +103,7 @@ header {
 
 /* about */
 .about {
-    background: #283036eb;
+    background: #28303663;
     margin-top: 5%;
     padding: 35px 20px 20px;
     border-radius: 5px;
@@ -120,7 +120,7 @@ header {
     font-weight: bold;
 }
 .about .text-muted {
-    color: #afafaf !important;
+    color: #fff !important;
 }
 .about span {
     cursor: pointer;
@@ -207,7 +207,6 @@ header {
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
-    margin: 4em 0;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
@@ -354,4 +353,8 @@ header {
     font-size: 16px;
     font-size: 1rem;
   }
+}
+
+.skills-icons{
+  font-size: 5rem !important;
 }
