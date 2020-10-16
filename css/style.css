@@ -358,3 +358,46 @@ header {
 .skills-icons{
   font-size: 5rem !important;
 }
+
+@media (max-width: 576px) {
+    body {
+      background: #6c6f719c;
+      font-size: 0.8rem;
+    }
+    .content-skills {
+      padding: 0;
+    }
+    .content-skills li {
+      text-decoration: none;
+      display: block;
+      margin-top: 10px;
+    }
+    .cd-timeline-img {
+      display: none;
+    }
+    #cd-timeline::before {
+      width: 0;
+    }
+    .cd-timeline-content {
+      margin: 0;
+    }
+    .about span {
+      font-size: 0.70rem;
+    }
+    .about-title {
+      margin-top: 15px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .cd-timeline-content h2 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .timeline-content-info-title{
+      font-size: 0.9rem !important;
+    }
+    .about{
+      background: none;
+      box-shadow: none;
+    }
+}
